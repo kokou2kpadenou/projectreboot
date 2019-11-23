@@ -1,27 +1,15 @@
-import Head from "next/head";
+import MyHead from "../components/myHead";
 import Header from "./header";
 import BackToTop from "./commun/backToTop";
 import Footer from "./footer";
 import useInView from "./useInView";
 
-const Layout = ({ pageTitle, children, headerless = false }) => {
+export default ({ pageTitle, children, headerless = false }) => {
   const [ref, inView] = useInView({ threshold: 0 });
 
   return (
     <>
-      <Head>
-        <title>{`${pageTitle} - Project Reboot`}</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta
-          name="description"
-          content="Project Reboot volunteers recycle computers for the poor and disabled"
-        />
-        <meta
-          name="keywords"
-          content="Project Reboot, recycle computers, charity, Montgomery County, CPCUG, Capital PC User Group"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <MyHead pageTitle={pageTitle} />
 
       <Header shadow={!inView || !headerless} />
 
@@ -165,5 +153,3 @@ const Layout = ({ pageTitle, children, headerless = false }) => {
     </>
   );
 };
-
-export default Layout;

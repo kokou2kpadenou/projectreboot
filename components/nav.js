@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "./commun/activeLink";
 import HamburgerMenu from "./commun/hamburgerMenu";
 
@@ -14,10 +13,10 @@ const links = [
   return link;
 });
 
-const Nav = ({ show, onShowMenu }) => (
+export default ({ show, onShowMenu }) => (
   <nav>
     <HamburgerMenu activation={show ? "activation" : ""} onClick={onShowMenu} />
-    <ul className={show && "show"}>
+    <ul className={show ? "show" : ""}>
       {links.map(({ key, href, label }) => (
         <li key={key}>
           <Link href={href}>
@@ -85,5 +84,3 @@ const Nav = ({ show, onShowMenu }) => (
     `}</style>
   </nav>
 );
-
-export default Nav;
