@@ -1,0 +1,212 @@
+[
+  {
+    "ID": "0001",
+    "title": "Desktop Computer System",
+    "desc": "Standard system works well for homework, resumés, email, internet browsing, etc.",
+    "price": "$25",
+    "spec": "Operating System 32 bit Microsoft Windows® 7 Professional * 2GB RAM, 80GB Hard Drive * Anti-virus, anti-malware * Word processor, spreadsheet, presentation software * Keyboard, Mouse, all necessary cabling & cords * Keyboard, Mouse, all necessary cabling & cords * Warranty 90 days * Monitor not included",
+    "restriction": "Limit of 3 desktop computers per family",
+    "extra": "",
+    "type": "Refurbished"
+  },
+  {
+    "ID": "0002",
+    "title": "Desktop Computer System",
+    "desc": "Enhanced system for those who need more power and performance from their computer. Great for video gaming/editing, databasing, etc",
+    "price": "$60",
+    "spec": "Operating System 64 bit Microsoft Windows® 7 Professional * 4GB RAM, 200GB Hard Drive * Anti-virus, anti-malware * Microsoft Office 2010 Home & Student * Keyboard, Mouse, all necessary cabling & cords * Internet ready (additional charge for WiFi) * Warranty 90 days * Monitor not included",
+    "restriction": "Limit of 3 desktop computers per family",
+    "extra": "BEAST",
+    "type": "Refurbished"
+  },
+  {
+    "ID": "0003",
+    "title": "Laptop Computer System",
+    "desc": "",
+    "price": "$65",
+    "spec": "Operating System 32 bit Microsoft Windows® 7 Professional * 2GB RAM, 80GB Hard Drive * Anti-virus, anti-malware * Word processor, spreadsheet, presentation software * Power Supply * Wi-fi Internet ready * Warranty 90 days (except on battery)",
+    "restriction": "Limit of 1 laptop computer per family",
+    "extra": "",
+    "type": "Refurbished"
+  },
+  {
+    "ID": "0004",
+    "title": "Laptop Computer System",
+    "desc": "Enhanced system for those who need more power and performance from their computer. Great for video gaming/editing, databasing, etc.",
+    "price": "$100",
+    "spec": "Operating System 64 bit Microsoft Windows® 10 Professional * 4GB RAM, 160GB Hard Drive * Anti-virus, anti-malware * Microsoft Office 2010 Home & Student * Power Supply * Wi-fi Internet ready * Warranty 90 days (except on battery)",
+    "restriction": "Limit of 1 laptop computer per family",
+    "extra": "BEAST",
+    "type": "Refurbished"
+  },
+  {
+    "ID": "0005",
+    "title": "Low Vision Software",
+    "desc": "",
+    "price": "Free",
+    "spec": "JAWS® from Freedom Scientific (40 minute demo version)",
+    "restriction": "optional by request",
+    "extra": "",
+    "type": "Software"
+  },
+  {
+    "ID": "0006",
+    "title": "Flat Panel Monitor 15''",
+    "desc": "",
+    "price": "$20",
+    "spec": "",
+    "restriction": "",
+    "extra": "",
+    "type": "Refurbished"
+  },
+  {
+    "ID": "0007",
+    "title": "Flat Panel Monitor 17''",
+    "desc": "",
+    "price": "$25",
+    "spec": "",
+    "restriction": "",
+    "extra": "",
+    "type": "Refurbished"
+  },
+  {
+    "ID": "0008",
+    "title": "Flat Panel Monitor 19''",
+    "desc": "",
+    "price": "$30",
+    "spec": "",
+    "restriction": "",
+    "extra": "",
+    "type": "Refurbished"
+  },
+  {
+    "ID": "0009",
+    "title": "Flat Panel Monitor 21''",
+    "desc": "",
+    "price": "$40",
+    "spec": "",
+    "restriction": "",
+    "extra": "",
+    "type": "Refurbished"
+  },
+  {
+    "ID": "0010",
+    "title": "Flat Panel Monitor 24''",
+    "desc": "",
+    "price": "$50",
+    "spec": "",
+    "restriction": "",
+    "extra": "",
+    "type": "Refurbished"
+  },
+  {
+    "ID": "0011",
+    "title": "B&W Printer",
+    "desc": "Laser & ink jet",
+    "price": "$30",
+    "spec": "",
+    "restriction": "when available",
+    "extra": "",
+    "type": "Refurbished"
+  },
+  {
+    "ID": "0012",
+    "title": "Color Printer",
+    "desc": "Color ink jet",
+    "price": "$40",
+    "spec": "",
+    "restriction": "when available",
+    "extra": "",
+    "type": "Refurbished"
+  },
+  {
+    "ID": "0013",
+    "title": "All-in-one Printer",
+    "desc": "Color ink jet, scanner, fax, copier all-in-one",
+    "price": "$50",
+    "spec": "",
+    "restriction": "when available",
+    "extra": "",
+    "type": "Refurbished"
+  },
+  {
+    "ID": "0014",
+    "title": "Speakers",
+    "desc": "Standard computer speakers",
+    "price": "$5",
+    "spec": "",
+    "restriction": "when available",
+    "extra": "",
+    "type": "Refurbished"
+  },
+  {
+    "ID": "0015",
+    "title": "Wi-fi",
+    "desc": "Install and configure wireless networking (wi-fi) on the desktop computer",
+    "price": "$15",
+    "spec": "",
+    "restriction": "",
+    "extra": "",
+    "type": "Refurbished"
+  },
+  {
+    "ID": "0016",
+    "title": "Warranty Repair",
+    "desc": "If the computer fails to function properly during the warranty period due to a hardware problem or something in the initial setup/configuration of the system we will fix or replace the item (our option) for FREE.",
+    "price": "Free",
+    "spec": "",
+    "restriction": "",
+    "extra": "",
+    "type": "Service"
+  },
+  {
+    "ID": "0017",
+    "title": "Non-warranty Repair",
+    "desc": "Repair or replacement",
+    "price": "$20",
+    "spec": "",
+    "restriction": "",
+    "extra": "",
+    "type": "Service"
+  },
+  {
+    "ID": "0018",
+    "title": "Remove a password",
+    "desc": "Forgot your password, we can remove it",
+    "price": "$10",
+    "spec": "",
+    "restriction": "",
+    "extra": "",
+    "type": "Service"
+  },
+  {
+    "ID": "0019",
+    "title": "Clean junk ware slowing computer",
+    "desc": "Gets your computer back to being as fast as new ",
+    "price": "$10",
+    "spec": "(you'll have to leave it overnight)",
+    "restriction": "",
+    "extra": "",
+    "type": "Service"
+  },
+  {
+    "ID": "0020",
+    "title": "Upgrade to Windows 10",
+    "desc": "Upgrade your computer to Windows 10 OS",
+    "price": "$20",
+    "spec": "(32 bit or 64 bit)",
+    "restriction": "",
+    "extra": "",
+    "type": "Service"
+  },
+  {
+    "ID": "0021",
+    "title": "Clean virus/malware",
+    "desc": "Remove virus and malware from computer.",
+    "price": "$10",
+    "spec": "Takes several hours and you should be prepared to leave your computer",
+    "restriction": "",
+    "extra": "",
+    "type": "Service"
+  }
+]

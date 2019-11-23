@@ -1,56 +1,89 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "./commun/activeLink";
+import HamburgerMenu from "./commun/hamburgerMenu";
 
 const links = [
-  { href: 'https://zeit.co/now', label: 'ZEIT' },
-  { href: 'https://github.com/zeit/next.js', label: 'GitHub' }
+  { href: "/", label: "Home" },
+  { href: "/donate", label: "Donation" },
+  { href: "/receive", label: "Receive a computer" },
+  { href: "/refer", label: "Referal" },
+  { href: "/volunteer", label: "Volunteer" },
+  { href: "/directions", label: "Location" }
 ].map(link => {
-  link.key = `nav-link-${link.href}-${link.label}`
-  return link
-})
+  link.key = `nav-link-${link.href}-${link.label}`;
+  return link;
+});
 
-const Nav = () => (
+const Nav = ({ show, onShowMenu }) => (
   <nav>
-    <ul>
-      <li>
-        <Link href='/'>
-          <a>Home</a>
-        </Link>
-      </li>
+    <HamburgerMenu activation={show ? "activation" : ""} onClick={onShowMenu} />
+    <ul className={show && "show"}>
       {links.map(({ key, href, label }) => (
         <li key={key}>
-          <a href={href}>{label}</a>
+          <Link href={href}>
+            <a>{label}</a>
+          </Link>
         </li>
       ))}
     </ul>
 
     <style jsx>{`
-      :global(body) {
-        margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir,
-          Helvetica, sans-serif;
-      }
       nav {
-        text-align: center;
+        position: relative;
       }
+
       ul {
-        display: flex;
-        justify-content: space-between;
+        background-color: #fff;
+        position: absolute;
+        list-style: none;
+        top: 0;
+        right: 0;
+        padding: 0;
+        width: 2rem;
+        height: 2rem;
+        overflow: hidden;
+        z-index: 2;
+        transition: width 1s, height 1s;
       }
-      nav > ul {
-        padding: 4px 16px;
+
+      .show {
+        width: 25rem;
+        height: 35rem;
+        padding: 4rem 2rem;
+        box-shadow: 0 11px 40px 0 rgba(0, 0, 0, 0.25),
+          0 2px 10px 0 rgba(0, 0, 0, 0.12);
       }
+
       li {
-        display: flex;
-        padding: 6px 8px;
+        margin: 2rem 0;
       }
-      a {
-        color: #067df7;
-        text-decoration: none;
-        font-size: 13px;
+
+      @media only screen and (min-width: 50em) {
+        nav {
+        }
+
+        .show {
+          width: auto;
+          height: auto;
+          padding: 0;
+          box-shadow: none;
+        }
+
+        ul {
+          background: none;
+          position: static;
+          width: auto;
+          height: auto;
+          padding: 0;
+          display: flex;
+        }
+
+        li {
+          margin: 1rem;
+        }
       }
     `}</style>
   </nav>
-)
+);
 
-export default Nav
+export default Nav;
