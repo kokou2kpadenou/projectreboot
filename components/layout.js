@@ -1,11 +1,11 @@
-import { useInView } from "react-intersection-observer";
 import Head from "next/head";
 import Header from "./header";
 import BackToTop from "./commun/backToTop";
 import Footer from "./footer";
+import useInView from "./useInView";
 
 const Layout = ({ pageTitle, children, headerless = false }) => {
-  const [ref, inView, entry] = useInView({ threshold: 0 });
+  const [ref, inView] = useInView({ threshold: 0 });
 
   return (
     <>
