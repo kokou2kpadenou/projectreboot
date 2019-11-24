@@ -15,7 +15,7 @@ export default options => {
           ([entry]) => {
             setInView(entry.isIntersecting);
           },
-          { options }
+           options 
         );
         observer.observe(ref.current);
       })
