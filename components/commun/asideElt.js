@@ -9,7 +9,7 @@ export default ({ title, children }) => (
       }
       .aside-elt__title {
         color: #fff;
-        background-color: var(--secondary-color);
+        background-color: #0070f3;
         font-weight: bold;
         padding: 1rem;
       }

@@ -6,7 +6,7 @@ export default ({ children }) => (
       width: 200px;
       border: 1px solid transparent;
       color: #fff;
-      background-color: var(--secondary-color);
+      background-color: #0070f3;
       margin: 0 2rem 2rem 0;
       padding: 2rem;
       line-height: 1.6;

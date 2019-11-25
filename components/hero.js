@@ -78,36 +78,36 @@ export default () => {
           margin: 0 2rem 0 0;
           border: 1px solid transparent;
           color: #fff;
-          background-color: var(--secondary-color);
+          background-color: #0070f3;
           transition: background-color 0.5s, border-color 0.5s;
         }
 
         .lnk--btn:hover,
         .lnk--btn:active {
           background-color: #fff;
-          border-color: var(--secondary-color);
-          color: var(--secondary-color);
+          border-color: #0070f3;
+          color: #0070f3;
         }
 
         .lnk--soft:link,
         .lnk--soft:visited {
-          color: var(--secondary-color);
+          color: #0070f3;
           transition: color 0.5s;
         }
 
         .lnk--soft:hover,
         .lnk--soft:active {
-          color: var(--tertiary-color);
+          color: tomato;
         }
 
         .down {
           cursor: pointer;
-          color: var(--secondary-color);
+          color: #0070f3;
           transition: all 0.5;
         }
 
         .down:hover {
-          color: var(--tertiary-color);
+          color: tomato;
           transform: scale(1.4);
         }
 

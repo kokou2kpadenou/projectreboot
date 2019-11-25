@@ -33,7 +33,13 @@ export default ({ shadow }) => {
 
         a:link,
         a:visited {
-          color: var(--tertiary-color);
+          color: #0070f3;
+          transition: color 0.4s;
+        }
+
+        a:hover,
+        a:active {
+          color: tomato;
         }
 
         h1 {

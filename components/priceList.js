@@ -112,10 +112,10 @@ export default ({ list }) => {
         }
 
         .badge--1 {
-          background-color: var(--secondary-color);
+          background-color: #0070f3;
         }
         .badge--2 {
-          background-color: var(--tertiary-color);
+          background-color: tomato;
         }
         .badge--3 {
           background-color: #999;

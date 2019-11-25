@@ -4,7 +4,7 @@ const P = props => (
 const H2 = props => (
   <h2
     style={{
-      color: "var(--tertiary-color)",
+      color: "#0070f3",
       marginBottom: "2rem"
     }}
     {...props}

@@ -30,12 +30,6 @@ export default ({ pageTitle, children, headerless = false }) => {
           box-sizing: inherit;
         }
 
-        :root {
-          --primary-color: #333;
-          --secondary-color: #0070f3;
-          --tertiary-color: tomato;
-        }
-
         html {
           font-size: 50.78125%;
         }
@@ -46,7 +40,7 @@ export default ({ pageTitle, children, headerless = false }) => {
             "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
             "Helvetica Neue", sans-serif;
           font-size: 1.6rem;
-          color: var(--primary-color);
+          color: #333;
           position: relative;
           overflow-x: hidden;
         }
@@ -72,12 +66,12 @@ export default ({ pageTitle, children, headerless = false }) => {
         a:link,
         a:visited {
           text-decoration: none;
-          color: var(--secondary-color);
+          color: #0070f3;
         }
 
         a:hover,
         a:active {
-          color: var(--tertiary-color);
+          color: tomato;
         }
 
         @supports (scroll-behavior: smooth) {
@@ -92,7 +86,7 @@ export default ({ pageTitle, children, headerless = false }) => {
         .active:active {
           text-decoration: none;
           cursor: default;
-          color: var(--tertiary-color);
+          color: tomato;
         }
         .no-active {
           position: relative;
@@ -105,7 +99,7 @@ export default ({ pageTitle, children, headerless = false }) => {
           position: absolute;
           width: 0%;
           height: 5px;
-          background-color: var(--tertiary-color);
+          background-color: tomato;
           bottom: -5px;
           left: 50%;
           transform: translateX(-50%);
@@ -114,12 +108,12 @@ export default ({ pageTitle, children, headerless = false }) => {
 
         .no-active:link,
         .no-active:visited {
-          color: var(--secondary-color);
+          color: #0070f3;
         }
 
         .no-active:hover,
         .no-active:active {
-          color: var(--tertiary-color);
+          color: tomato;
         }
 
         .no-active:hover::before,

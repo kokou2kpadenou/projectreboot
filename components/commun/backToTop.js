@@ -10,7 +10,7 @@ export default ({ show }) => {
       <Svg iconRef="up" iconSize="2.5rem" />
       <style jsx>{`
         div {
-          color: var(--secondary-color);
+          color: #0070f3;
           background-color: #fff;
           padding: 0.5rem;
           box-shadow: 0 11px 40px 0 rgba(0, 0, 0, 0.25),
@@ -24,7 +24,7 @@ export default ({ show }) => {
         }
 
         div:hover {
-          color: var(--tertiary-color);
+          color: tomato;
         }
 
         .show {
