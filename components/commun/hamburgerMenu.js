@@ -27,7 +27,7 @@ export default ({ activation, onClick }) => {
         .icon::before {
           width: 3rem;
           height: 2px;
-          background-color: #000;
+          background-color: #0070f3;
           display: inline-block;
           transition: all 0.4s;
         }
@@ -45,6 +45,12 @@ export default ({ activation, onClick }) => {
 
         .icon::after {
           top: 0.9rem;
+        }
+
+        .button:hover .icon,
+        .button:hover .icon::after,
+        .button:hover .icon::before {
+          background-color: tomato;
         }
 
         .button:hover .icon::before {
