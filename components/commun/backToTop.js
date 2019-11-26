@@ -1,5 +1,3 @@
-import Svg from "./svg";
-
 export default ({ show }) => {
   const _click = () => {
     document.body.scrollTop = 0;
@@ -7,7 +5,10 @@ export default ({ show }) => {
   };
   return (
     <div onClick={_click} className={show && "show"}>
-      <Svg iconRef="up" iconSize="2.5rem" />
+      <svg viewBox="0 0 28 28" width="2.5rem" height="2.5rem">
+        {/* <title>Up</title> */}
+        <path d="M26.297 20.797l-2.594 2.578c-0.391 0.391-1.016 0.391-1.406 0l-8.297-8.297-8.297 8.297c-0.391 0.391-1.016 0.391-1.406 0l-2.594-2.578c-0.391-0.391-0.391-1.031 0-1.422l11.594-11.578c0.391-0.391 1.016-0.391 1.406 0l11.594 11.578c0.391 0.391 0.391 1.031 0 1.422z"></path>
+      </svg>
       <style jsx>{`
         div {
           color: #0070f3;
@@ -25,6 +26,10 @@ export default ({ show }) => {
 
         div:hover {
           color: tomato;
+        }
+
+        svg {
+          fill: currentcolor;
         }
 
         .show {
