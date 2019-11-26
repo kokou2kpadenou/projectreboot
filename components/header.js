@@ -50,6 +50,8 @@ export default ({ shadow }) => {
         }
 
         svg {
+          width: 4rem;
+          height: 4rem;
           fill: currentcolor;
         }
       `}</style>

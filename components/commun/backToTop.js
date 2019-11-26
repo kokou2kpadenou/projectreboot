@@ -29,6 +29,8 @@ export default ({ show }) => {
         }
 
         svg {
+          width: 2.5rem;
+          height: 2.5rem;
           fill: currentcolor;
         }
 

@@ -77,6 +77,10 @@ export default () => {
           );
           color: #999;
         }
+        svg {
+          width: 10rem;
+          height: 10rem;
+        }
 
         .footer-title {
           font-size: 2.8rem;
