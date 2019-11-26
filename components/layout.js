@@ -46,6 +46,7 @@ export default ({ pageTitle, children, headerless = false }) => {
         }
 
         main {
+          display: block;
           padding: 10rem 0 2rem 0;
         }
 
