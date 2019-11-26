@@ -3,7 +3,7 @@ import { useRef, useState, useEffect } from "react";
 export default options => {
   const ref = useRef(null);
   let observer = null;
-  const [inView, setInView] = useState(false);
+  const [inView, setInView] = useState(true);
 
   useEffect(() => {
     (window.IntersectionObserver
@@ -11,12 +11,9 @@ export default options => {
       : import("intersection-observer")
     )
       .then(() => {
-        observer = new IntersectionObserver(
-          ([entry]) => {
-            setInView(entry.isIntersecting);
-          },
-           options 
-        );
+        observer = new IntersectionObserver(([entry]) => {
+          setInView(entry.isIntersecting);
+        }, options);
         observer.observe(ref.current);
       })
       .catch(() => {
