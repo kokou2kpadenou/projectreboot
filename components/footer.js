@@ -2,7 +2,10 @@ export default () => {
   return (
     <footer>
       <div>
-        <svg viewBox="0 0 1024 1024" width="10rem" height="10rem">
+        <svg
+          viewBox="0 0 1024 1024"
+          style={{ width: "10rem", height: "10rem" }}
+        >
           {/* <title>project reboot</title> */}
           <path
             fill="none"
@@ -76,10 +79,6 @@ export default () => {
             #323232 100%
           );
           color: #999;
-        }
-        svg {
-          width: 10rem;
-          height: 10rem;
         }
 
         .footer-title {

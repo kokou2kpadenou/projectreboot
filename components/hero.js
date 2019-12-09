@@ -25,12 +25,7 @@ export default () => {
           </a>
           <a className="lnk lnk--soft" href="/receive">
             <span>Get Computer</span>
-            <svg
-              className="svg-right"
-              viewBox="0 0 20 20"
-              width="1rem"
-              height="1rem"
-            >
+            <svg viewBox="0 0 20 20" style={{ width: "1rem", height: "1rem" }}>
               {/* <title>right</title> */}
               <path d="M13.901 10.002l-8.303-8.628c-0.312-0.314-0.312-0.822 0-1.138 0.312-0.314 0.815-0.314 1.127 0l9.104 9.195c0.312 0.315 0.312 0.824 0 1.138l-9.104 9.195c-0.312 0.315-0.815 0.314-1.127 0-0.312-0.313-0.312-0.822 0-1.138l8.303-8.624z"></path>
             </svg>
@@ -39,10 +34,8 @@ export default () => {
 
         <span className="down" onClick={_click}>
           <svg
-            className="svg-down"
             viewBox="0 0 28 28"
-            width="2.5rem"
-            height="2.5rem"
+            style={{ width: "2.5rem", height: "2.5rem" }}
           >
             {/* <title>Down</title> */}
             <path d="M26.297 12.625l-11.594 11.578c-0.391 0.391-1.016 0.391-1.406 0l-11.594-11.578c-0.391-0.391-0.391-1.031 0-1.422l2.594-2.578c0.391-0.391 1.016-0.391 1.406 0l8.297 8.297 8.297-8.297c0.391-0.391 1.016-0.391 1.406 0l2.594 2.578c0.391 0.391 0.391 1.031 0 1.422z"></path>
@@ -72,6 +65,7 @@ export default () => {
         .title {
           font-size: 10vw;
           margin-bottom: 2rem;
+          color: tomato;
         }
 
         .text {
@@ -132,16 +126,6 @@ export default () => {
 
         svg {
           fill: currentcolor;
-        }
-
-        .svg-right {
-          width: 1rem;
-          height: 1rem;
-        }
-
-        .svg-down {
-          width: 2.5rem;
-          height: 2.5rem;
         }
 
         @media only screen and (min-width: 37.5em) {
